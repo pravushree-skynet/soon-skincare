@@ -120,6 +120,12 @@ img {
 	box-shadow: none !important;
 }
 
+.btn-white {
+	background-color: #fff;
+	color: #000;
+	border: none;
+}
+
 header .btn {
 	background-color: transparent;
 	border-color: #fff;
@@ -191,7 +197,8 @@ h4,
 h5,
 .h5 {
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 22px;
+	letter-spacing: 4px;
 }
 
 h3,
@@ -199,6 +206,14 @@ h4,
 h5,
 h6 {
 	color: #432b66;
+}
+
+.mb-100 {
+	margin-bottom: 100px;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
 }
 
 .container-fluid {
@@ -347,6 +362,64 @@ header .btn {
 	--bs-gutter-y: 12rem;
 }
 
+.popularSec {
+	padding-top: 225px;
+	padding-bottom: 490px;
+	background-image: url(../img/popular-bg.jpg);
+}
+
+.sliderHolder {
+	margin-top: -355px;
+}
+
+.serviceItem h5 {
+	font-size: 20px;
+	letter-spacing: 0;
+}
+
+.redText {
+	color: #ec2e67;
+}
+
+.sliderArea {
+	position: relative;
+}
+
+.sliderBox {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	max-width: 330px;
+	margin: 0 auto;
+}
+
+.owl-nav span {
+	font-size: 30px;
+	color: #000;
+}
+
+.owl-nav {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.owl-nav button {
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+
+.collectionImg {
+	aspect-ratio: 1 / 1;
+}
+
+.collectionImg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
 
 @media (max-width:1600px) {
@@ -374,10 +447,28 @@ header .btn {
 	h2,
 	.h2 {
 		font-size: 220px;
-		color: #f4edf2;
-		font-weight: 700;
 		letter-spacing: -10px;
-		line-height: .8em;
+	}
+
+	.mb-50 {
+		margin-bottom: 25px;
+	}
+
+	.mb-100 {
+		margin-bottom: 80px;
+	}
+
+	.popularSec {
+		padding-top: 100px;
+	}
+
+	.owl-nav {
+		margin-top: 0;
+	}
+
+	.sliderBox .proImg {
+		max-width: 230px;
+		margin: 0 auto;
 	}
 
 }
@@ -397,11 +488,6 @@ header .btn {
 	h4,
 	.h4 {
 		font-size: 14px;
-	}
-
-	h5,
-	.h5 {
-		font-size: 17px;
 	}
 
 	.g-6,
@@ -438,6 +524,42 @@ header .btn {
 		font-size: 17px;
 	}
 
+	.mb-100 {
+		margin-bottom: 50px;
+	}
+
+	.popularSec {
+		padding-top: 80px;
+		padding-bottom: 440px;
+	}
+
+	.serviceItem h5 {
+		font-size: 17px;
+	}
+}
+
+@media (max-width:1200px) {
+	.mb-50 {
+		margin-bottom: 20px;
+	}
+
+	.sliderHolder {
+		margin-top: -250px;
+	}
+
+	.popularSec {
+		padding-bottom: 325px;
+	}
+
+	.owl-nav button {
+		width: 25px;
+		height: 25px;
+		margin: 5px;
+	}
+
+	.sliderBox .proImg {
+		max-width: 180px;
+	}
 }
 
 @media (max-width:991.98px) {
@@ -453,8 +575,20 @@ header .btn {
 		letter-spacing: -5px;
 	}
 
+	h5,
+	.h5 {
+		font-size: 18px;
+		letter-spacing: 2px;
+	}
+
 	header {
 		padding: 15px;
+	}
+
+	.container,
+	.container-fluid {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 
 	.bannerText {
@@ -516,9 +650,17 @@ header .btn {
 		padding-bottom: 60px;
 	}
 
+	.proImg .btn {
+		max-width: 120px;
+	}
+
+	.mb-100 {
+		margin-bottom: 30px;
+	}
+
 	.g-6,
 	.gx-6 {
-		--bs-gutter-x: 2rem;
+		--bs-gutter-x: 1rem;
 	}
 
 	.g-6,
@@ -526,12 +668,12 @@ header .btn {
 		--bs-gutter-y: 2rem;
 	}
 
-	.container-fluid {
-		padding: 0 20px;
+	.popularSec {
+		padding-top: 60px;
 	}
 
-	.proImg .btn {
-		max-width: 120px;
+	.collectionImg {
+		aspect-ratio: 1 / 1.2;
 	}
 
 
@@ -547,6 +689,21 @@ header .btn {
 	h2,
 	.h2 {
 		font-size: 90px;
+	}
+
+	h5,
+	.h5 {
+		letter-spacing: 1px;
+		font-size: 20px;
+	}
+
+	.btn {
+		padding-top: 8px;
+		padding-right: 13px;
+		padding-bottom: 8px;
+		padding-left: 13px;
+		min-width: 130px;
+		font-size: 11px;
 	}
 
 	.logo {
@@ -585,6 +742,27 @@ header .btn {
 		font-size: 11px;
 	}
 
+	.popularSec {
+		padding-top: 50px;
+		padding-bottom: 200px;
+	}
+
+	.sliderHolder {
+		margin-top: -150px;
+	}
+
+	.sliderBox .proImg {
+		max-width: 100%;
+	}
+
+	.collectionImg {
+		aspect-ratio: 1 / 1.2;
+	}
+
+	.sliderBox {
+		max-width: 440px;
+	}
+
 }
 
 @media (max-width:575.98px) {
@@ -599,9 +777,12 @@ header .btn {
 		font-size: 66px;
 		letter-spacing: -3px;
 	}
-	h4, .h4 {
+
+	h4,
+	.h4 {
 		font-size: 13px;
-	  }
+	}
+
 	p {
 		font-size: 15px;
 		line-height: 1.2em;
@@ -637,8 +818,13 @@ header .btn {
 	.productThum {
 		max-width: 236px;
 	}
+
 	.price {
 		font-size: 15px;
-	  }
+	}
+
+	.collectionImg {
+		aspect-ratio: 1 / 1.6;
+	}
 
 }
