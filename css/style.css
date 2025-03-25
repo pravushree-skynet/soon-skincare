@@ -1050,11 +1050,11 @@ footer li a {
 		transform: inherit;
 		width: 310px;
 	}
-
-	.relativePosts {
-		padding-top: 30px;
-	}
-
+	.bigPost {
+		border-bottom: 1px solid #e5cad2;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	  }
 	.b-arrow::after {
 		bottom: -10px;
 		top: inherit !important;
@@ -1107,6 +1107,9 @@ footer li a {
 	}
 	.iconBox img {
 		max-height: 30px;
+	  }
+	  .bigPost h3 {
+		font-size: 15px;
 	  }
 
 }
