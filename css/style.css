@@ -85,15 +85,6 @@ textarea {
 img {
 	max-width: 100%;
 }
-
-.container,
-.container-sm,
-.container-md,
-.container-lg,
-.container-xl {
-	max-width: 1180px;
-}
-
 .btn {
 	font-size: 12px;
 	min-width: inherit;
@@ -1139,7 +1130,10 @@ footer li a {
 	.h4 {
 		font-size: 13px;
 	}
-
+	h5,
+	.h5 {
+		font-size: 18px;
+	}
 	p {
 		font-size: 15px;
 		line-height: 1.2em;
