@@ -172,7 +172,7 @@ p {
 
 h1,
 .h1 {
-	font-size: 130px;
+	font-size: 100px;
 	font-weight: 600;
 	line-height: .9em;
 	color: #fff;
@@ -180,7 +180,7 @@ h1,
 
 h2,
 .h2 {
-	font-size: 293px;
+	font-size: 250px;
 	color: #f4edf2;
 	font-weight: 700;
 	letter-spacing: -10px;
@@ -545,15 +545,6 @@ header .btn {
 	background-color: #fef7f9;
 }
 
-
-
-
-
-
-
-
-
-
 footer {
 	padding-top: 100px;
 	background-color: #fef7f9;
@@ -592,14 +583,6 @@ footer li a {
 	padding: 25px 0;
 }
 
-@media (max-width:1900px) {
-
-	h2,
-	.h2 {
-		font-size: 220px;
-	}
-}
-
 @media (min-width:1600px) {
 	.container {
 		max-width: 1600px;
@@ -616,6 +599,12 @@ footer li a {
 		font-size: 80px;
 	}
 
+	h2,
+	.h2 {
+		font-size: 180px;
+		letter-spacing: -10px;
+	}
+
 	h3,
 	.h3 {
 		font-size: 30px;
@@ -629,12 +618,6 @@ footer li a {
 	.g-6,
 	.gy-6 {
 		--bs-gutter-y: 7rem;
-	}
-
-	h2,
-	.h2 {
-		font-size: 220px;
-		letter-spacing: -10px;
 	}
 
 	.mb-50 {
@@ -795,6 +778,12 @@ footer li a {
 }
 
 @media (max-width:1200px) {
+
+	h2,
+	.h2 {
+		font-size: 150px;
+	}
+
 	.mb-50 {
 		margin-bottom: 20px;
 	}
@@ -820,6 +809,15 @@ footer li a {
 	.videoText {
 		padding: 15px;
 	}
+
+	h2,
+	.h2 {
+		font-size: 150px;
+	}
+
+	.videoText {
+		aspect-ratio: 1/1;
+	}
 }
 
 @media (max-width:991.98px) {
@@ -831,7 +829,7 @@ footer li a {
 
 	h2,
 	.h2 {
-		font-size: 130px;
+		font-size: 100px;
 		letter-spacing: -5px;
 	}
 
@@ -846,8 +844,9 @@ footer li a {
 	}
 
 	.bannerText {
-		left: 4%;
-	}
+		left: 0;
+		top: 60%;
+	  }
 
 	.btn {
 		padding-top: 10px;
@@ -1026,11 +1025,6 @@ footer li a {
 		margin: 0 auto;
 	}
 
-	.bgText {
-		max-width: 330px;
-		margin: 0 auto;
-	}
-
 	.bgText span {
 		font-size: 11px;
 	}
@@ -1065,6 +1059,7 @@ footer li a {
 		left: 0;
 		top: 0;
 		transform: inherit;
+		width: 310px;
 	}
 
 	.relativePosts {
@@ -1186,17 +1181,17 @@ footer li a {
 		aspect-ratio: 1 / 1.6;
 	}
 
-	.bgText {
-		width: 90%;
-		text-align: center;
-	}
-
 	.videoText p {
 		font-size: 13px;
 	}
 
 	.videoText {
 		aspect-ratio: 1/1.2;
+	}
+
+	.bgText {
+		width: 240px;
+		margin: 0 auto;
 	}
 
 }
