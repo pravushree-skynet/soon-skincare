@@ -574,6 +574,22 @@ footer li a {
 .owl-dots {
 	display: none;
   }
+  .proImg {
+	aspect-ratio: 1/1.3;
+  }
+  .proImg img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+  }
+  .popularImg {
+	aspect-ratio: 1/.8;
+  }
+  .popularImg img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+  }
 
 @media (min-width:1600px) {
 	.container {
@@ -995,8 +1011,8 @@ footer li a {
 
 	.bannerText {
 		left: 0;
-		right: 0;
 		top: 55%;
+		max-width: 360px;
 	}
 
 	.bannerImg {
@@ -1192,5 +1208,14 @@ footer li a {
 		width: 240px;
 		margin: 0 auto;
 	}
+	.iconBox img {
+		max-height: 22px;
+	  }
+	  .serviceItem h5 {
+		font-size: 12px;
+	  }
+	  .serviceItem p {
+		font-size: 12px;
+	  }
 
 }
