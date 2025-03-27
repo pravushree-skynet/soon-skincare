@@ -186,7 +186,7 @@ h3,
 .h3 {
 	font-size: 46px;
 	font-weight: 600;
-	line-height: 1em;
+	line-height: 1.3em;
 }
 
 h4,
@@ -223,6 +223,10 @@ h6 {
 
 .mb-50 {
 	margin-bottom: 50px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
 }
 
 .container {
@@ -609,6 +613,74 @@ footer li a {
 	height: 100%;
 	object-fit: cover;
 }
+
+.loginSec {
+	padding: 110px 0;
+	background-image: url(../img/login-bg.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.formHolder {
+	max-width: 575px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 45px 30px 38px;
+	border-radius: 20px;
+}
+
+.formHolder h3 {
+	font-size: 36px;
+}
+
+.formHolder label {
+	font-size: 20px;
+	color: #432b66;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+.logControl {
+	padding: 20px;
+	border: 1px solid #dedede;
+	width: 100%;
+	border-radius: 35px;
+	font-size: 18px;
+	color: #000;
+}
+
+.form-text {
+	margin-top: 6px;
+	font-size: 16px;
+	text-align: right;
+}
+
+.red {
+	color: #ec2e67;
+}
+
+.formHolder .btn {
+	padding: 20px;
+	width: 100%;
+	font-size: 20px;
+	background-color: #ec2e67;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.bgHeader {
+	position: relative;
+	background-image: url(../img/header-bg.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+
+
+
+
 
 @media (min-width:1600px) {
 	.container {
@@ -999,6 +1071,9 @@ footer li a {
 		padding-top: 60px;
 	}
 
+	.loginSec {
+		padding: 50px 0;
+	}
 }
 
 @media (max-width:767.98px) {
@@ -1017,6 +1092,10 @@ footer li a {
 	.h5 {
 		letter-spacing: 1px;
 		font-size: 20px;
+	}
+
+	.mb-30 {
+		margin-bottom: 20px;
 	}
 
 	.btn {
@@ -1155,6 +1234,41 @@ footer li a {
 	.bigPost h3 {
 		font-size: 15px;
 	}
+
+	.formHolder {
+		max-width: 575px;
+		padding: 30px 20px;
+		border-radius: 10px;
+	}
+
+	.logControl {
+		padding: 10px 20px;
+		font-size: 15px;
+	}
+
+	.formHolder label {
+		font-size: 14px;
+	}
+
+	.form-text {
+		font-size: 12px;
+	}
+
+	.formHolder .btn {
+		padding: 10px;
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.formHolder p img {
+		width: 16px;
+	}
+
+	.formHolder p {
+		font-size: 14px;
+	}
+
+
 
 }
 
