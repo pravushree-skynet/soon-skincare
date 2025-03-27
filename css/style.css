@@ -677,8 +677,12 @@ footer li a {
 .cartCollection .proImg:after{
  display: none !important;
 }
-
-
+.hideHover:after{
+	display: none !important;
+}
+.listSec{
+	padding: 70px 0;
+}
 
 
 
@@ -1269,7 +1273,9 @@ footer li a {
 	.formHolder p {
 		font-size: 14px;
 	}
-
+	.listSec {
+		padding: 40px 0;
+	  }
 
 
 }
