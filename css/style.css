@@ -674,7 +674,9 @@ footer li a {
 	background-position: center;
 	background-size: cover;
 }
-
+.cartCollection .proImg:after{
+ display: none !important;
+}
 
 
 
